@@ -1,17 +1,17 @@
 body {
     min-height: 100%;
-    background-image: url('NgGpPPi-hd-wood-background.jpg');
+    background-image: url('../images/NgGpPPi-hd-wood-background.jpg');
 }
 
 @media only screen and (max-width: 720px) {
     body {
-        background-image: url('Black-Dark-Spot-White-Texture-Background-Pattern-WallpapersByte-com-1366x768.jpg');
+        background-image: url('../images/Black-Dark-Spot-White-Texture-Background-Pattern-WallpapersByte-com-1366x768.jpg');
     }
 }
 
 @media only screen and (max-width: 540px) {
     body {
-        background-image: url('IMG_112998.jpg');
+        background-image: url('../images/IMG_112998.jpg');
     }
 }
 
@@ -30,8 +30,17 @@ body {
 }
 
 .card {
-    float: left;
     padding: 2px;
+    width: 269px;
+}
+
+.card-img-top {
+    height: 269px;
+    width: auto;
+}
+
+.row--card {
+    margin: auto;
 }
 
 li a {
@@ -49,6 +58,7 @@ li a:hover {
 
 .jumbotron {
     margin: auto;
+    min-height: 100%;
 }
 
 .aboutme_header {
@@ -57,10 +67,6 @@ li a:hover {
 
 .btn-primary {
     background-color: black;
-}
-
-.card-columns {
-    display: inline-block;
 }
 
 .footer--center {

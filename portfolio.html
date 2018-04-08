@@ -8,7 +8,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:100,100i" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Linking Bootstrap to html -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Linking style sheets -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text.css" href="assets/css/reset.css">
 </head>
 
 <body>
@@ -44,58 +55,64 @@
     <div class="container container--jumbotron">
         <div class="row align-self-center">
             <div class="jumbotron col-12 mt-4 mb-4">
-                <div class="card-columns col align-self-center">
-                    <div class="card col-12">
-                        <img class="card-img-top rounded-top" src="image_placehold_200x200.png  " alt="Card image cap">
+                <div class="row row--card">
+                    <div class="card col-4">
+                        <img class="card-img-top rounded-top" src="assets/images/Hangman-Portfolio.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">"Description of Project"</p>
-                            <a href="#" class="btn btn-primary">See Project</a>
+                            <p class="card-text">"Game is set to to give the player 10 guesses until hangman is fully drawn and the game is over.
+                                Guess the word correctly and you win!"</p>
+                            <a href="" class="btn btn-primary" id="hangmanBtn">See Project</a>
                         </div>
                     </div>
-                    <div class="card col-12">
-                        <img class="card-img-top rounded-top" src="image_placehold_200x200.png  " alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 4</h5>
-                            <p class="card-text">"Description of Project"</p>
-                            <a href="#" class="btn btn-primary">See Project</a>
-                        </div>
-                    </div>
-                    <div class="card col-12">
-                        <img class="card-img-top rounded-top" src="image_placehold_200x200.png  " alt="Card image cap">
+                    <div class="card col-4">
+                        <img class="card-img-top rounded-top" src="assets/images/crystalGame.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Project 2</h5>
-                            <p class="card-text">"Description of Project"</p>
-                            <a href="#" class="btn btn-primary">See Project</a>
+                            <p class="card-text">"A random number is generated. It is the players job to reach that number using other randomly
+                                generated numbers hidden inside the crystals."</p>
+                            <a href="" class="btn btn-primary" id="crystalBtn">See Project</a>
                         </div>
                     </div>
-                    <div class="card col-12">
-                        <img class="card-img-top rounded-top" src="image_placehold_200x200.png  " alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 5</h5>
-                            <p class="card-text">"Description of Project"</p>
-                            <a href="#" class="btn btn-primary">See Project</a>
-                        </div>
-                    </div>
-                    <div class="card col-12">
-                        <img class="card-img-top rounded-top" src="image_placehold_200x200.png  " alt="Card image cap">
+                    <div class="card col-4">
+                        <img class="card-img-top rounded-top" src="assets/images/image_placehold_200x200.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Project 3</h5>
                             <p class="card-text">"Description of Project"</p>
-                            <a href="#" class="btn btn-primary">See Project</a>
+                            <a href="" class="btn btn-primary">See Project</a>
                         </div>
                     </div>
-                    <div class="card col-12">
-                        <img class="card-img-top rounded-top" src="image_placehold_200x200.png  " alt="Card image cap">
+                </div>
+
+                <div class="row row--card">
+                    <div class="card col-4">
+                        <img class="card-img-top rounded-top" src="assets/images/image_placehold_200x200.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 4</h5>
+                            <p class="card-text">"Description of Project"</p>
+                            <a href="" class="btn btn-primary">See Project</a>
+                        </div>
+                    </div>
+                    <div class="card col-4">
+                        <img class="card-img-top rounded-top" src="assets/images/image_placehold_200x200.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 5</h5>
+                            <p class="card-text">"Description of Project"</p>
+                            <a href="" class="btn btn-primary">See Project</a>
+                        </div>
+                    </div>
+                    <div class="card col-4">
+                        <img class="card-img-top rounded-top" src="assets/images/image_placehold_200x200.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Project 6</h5>
                             <p class="card-text">"Description of Project"</p>
-                            <a href="#" class="btn btn-primary">See Project</a>
+                            <a href="" class="btn btn-primary">See Project</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <div class="container">
         <div class="row">
@@ -105,14 +122,10 @@
         </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    <!-- Linking Javascript and JQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
 </body>
 
 </html>
