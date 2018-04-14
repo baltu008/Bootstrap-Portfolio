@@ -8,9 +8,9 @@ $(document).ready(function () {
         window.open("https://baltu008.github.io/week-4-game");
     });
 
-    // $('#Btn').on("click", function () {
-    //     window.open("#");
-    // });
+    $('#starWarsBtn').on("click", function () {
+        window.open("https://baltu008.github.io/TriviaGame");
+    });
 
     // $('#Btn').on("click", function () {
     //     window.open("#");
