@@ -12,9 +12,9 @@ $(document).ready(function () {
         window.open("https://baltu008.github.io/TriviaGame");
     });
 
-    // $('#Btn').on("click", function () {
-    //     window.open("#");
-    // });
+    $('#gifTasticBtn').on("click", function () {
+        window.open("https://baltu008.github.io/GifTastic/");
+    });
 
     // $('#Btn').on("click", function () {
     //     window.open("#");
